@@ -1,0 +1,24 @@
+{
+  "name": "@dwcore/dwsc",
+  "version": "0.1.1",
+  "description": "Library For Collecting Buffered [dwStreams](https://github.com/distributedweb/dws2) Data And Placing Them Into An Array.",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "once": "^1.3.1"
+  },
+  "devDependencies": {
+    "@dwcore/dws2": "dwcore/dws2#master",
+    "tape": "^3.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
